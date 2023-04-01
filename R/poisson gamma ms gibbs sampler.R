@@ -10,7 +10,6 @@ library(xtable)
 setwd("C:/Users/julia/OneDrive/Desktop/github/20. Gibbs sampling")
 
 # write the data and export in LaTeX table 
-
 dataset = data.frame('Pump' = 1:10,
                      'Failures' = c(5,1,5,14,3,19,1,1,4,22),
                      'Time' = c(94.32, 15.72, 62.88, 125.76, 5.24, 31.44, 1.05, 1.05, 2.10, 10.48))
@@ -95,3 +94,4 @@ grid.arrange(p1, p2, nrow = 1)
 #----
 # end
 #----
+
